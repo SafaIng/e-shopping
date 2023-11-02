@@ -1,0 +1,359 @@
+body {
+  margin-top: 5%;
+
+  color: #aaa;
+  background: #f0ebeb;
+  font: 600 16px/18px 'Open Sans', sans-serif;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table
+}
+
+.clearfix:after {
+  clear: both;
+  display: block
+}
+
+a {
+  color: inherit;
+  text-decoration: none
+}
+
+header {
+
+  background-color: rgb(126, 92, 118);
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(126, 92, 118);
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -150px;
+
+  margin-top: -100px;
+  display: block;
+  width: 150px;
+  float: left;
+}
+
+.input {
+  font: 600 14px/18px 'Open Sans', sans-serif;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, .1);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #f0ebeb;
+}
+
+
+
+.button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.534);
+}
+
+.button:hover {
+  background: rgb(255, 255, 255);
+}
+
+.button:active {
+  background: rgb(85, 83, 83);
+}
+
+.login-wrap {
+
+  width: 100%;
+  margin: auto;
+  max-width: 525px;
+  min-height: 670px;
+  position: relative;
+  background: url(../images/index.jpg) no-repeat center;
+  background-size: 600px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+.login-html {
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 90px 70px 50px 70px;
+  background: rgba(40, 57, 101, .9);
+}
+
+.valid {
+  font: 600 14px/18px 'Open Sans', sans-serif;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: rgba(12, 83, 12, 0.726);
+  color: #f0ebeb;
+}
+
+.invalid {
+  font: 600 14px/18px 'Open Sans', sans-serif;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: rgba(255, 3, 3, 0.726);
+
+  color: #f0ebeb;
+}
+
+.empty {
+  font: 600 14px/18px 'Open Sans', sans-serif;
+  border: none;
+  padding: 15px 20px;
+
+  border: 2px solid rgba(250, 234, 17, 0.959);
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, .1);
+  color: #f0ebeb;
+}
+
+
+.home_div {
+  margin: auto;
+  max-width: 95%;
+  min-height: 400px;
+  position: relative;
+  background: url(../images/Desktop_S24_Herbst-Sale_1920x1920.jpg) no-repeat center;
+  background-size: 100%;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+.welcomeTextStyle {
+  margin-left: 3%;
+  color: #150b47;
+  font-size: 30px;
+  vertical-align: middle;
+  width: fit-content;
+  display: inline-block;
+}
+
+.center {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.preis {
+  color: red;
+}
+
+.korbButton {
+  position: absolute;
+  top: 700px;
+  right: 170px;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  border: 2px solid rgba(182, 182, 214, 0.26);
+  background-color: rgb(85, 111, 138);
+  /* Blue background */
+  color: white;
+  /* White text */
+  padding: 12px 16px;
+  /* Some padding */
+  font-size: 16px;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+  object-fit: cover;
+}
+
+.korbButtontwo {
+  margin-left: 80%;
+  /*position: absolute;
+  top: 120px;
+  right: 170px;*/
+  /* Blue background */
+  color: white;
+  /* White text */
+  /* Some padding */
+  font-size: 32px;
+  vertical-align: middle;
+  display: inline-block;
+  /* Mouse pointer on hover */
+}
+
+.korbText {
+  color: black;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.korIcon {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+.shopping-cart {
+  width: 750px;
+  height: fit-content;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+
+.image {
+  margin-right: 50px;
+  width: 60px;
+  height: 60px;
+}
+ 
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+.quantity input {
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn{
+  margin: auto;
+  align-content: center;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.plus-btn{
+  margin: auto;
+  align-content: center;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  object-fit: cover;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
+
+.price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+  margin-left: 70%;
+}
+
+

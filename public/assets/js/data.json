@@ -1,0 +1,55 @@
+{
+    "table":{
+    "products": [
+            {
+                "id":"1",
+                "image":"../assets/images/cellule1.jpg",
+                "name": "Converse",
+                "version":"Laufschuh ",
+                "preis": "54.99",
+                "quantity":"1"
+            }, {
+                "id":"2",
+                "image":"../assets/images/cellule2.jpg",
+                "name": "Converse",
+                "version":"Laufschuh",
+                "preis": "69.99",
+                "quantity":"1"
+            }, {
+                "id":"3",
+                "image":"../assets/images/cellule3.jpg",
+                "name": "Vans",
+                "version":"Laufschuh",
+                "preis": "49.99",
+                "quantity":"1"
+            }, 
+            {
+                "id":"4",
+                "image":"../assets/images/cellule4.jpg",
+                "name": "Vans",
+                "version":"Laufschuh",
+                "preis": "59.99",
+                "quantity":"1"
+            }, 
+    
+            {
+                "id":"5",
+                "image":"../assets/images/cellule5.jpg",
+                "name": "Vans",
+                "version":"Laufschuh",
+                "preis": "64.99",
+                "quantity":"1"
+            }, 
+    
+            {
+                "id":"6",
+                "image":"../assets/images/cellule6.jpg",
+                "name": "Nike",
+                "version":"Sneaker",
+                "preis": "54.99",
+                "quantity":"1"
+            }   
+      
+        ]
+}
+}
