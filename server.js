@@ -13,7 +13,7 @@ server.use(express.static('public', {
 }));
 
 server.use(express.json());
-const db = nano(`http://alfa:alfa@127.0.0.1:5984`).db;
+const db = nano(`your database path`).db;
 const dbName = 'accounts';
 server.get('/', (req, res) => {
     res.sendFile(__dirname + './public/newaccount.html')
@@ -31,7 +31,7 @@ server.post('/', (req, res) => {
                 mailToName = fields.name[0];
                 mailToMail = fields.email[0];
                 const mailOptions = {
-                    from: 'Sophie-professionell@outlook.de', // sender address
+                    from: 'the sender-mail', // sender address
                     to: mailToMail, // list of receivers
                     subject: 'Welcome mail', // Subject line
                     text: 'Hello '+ mailToName+', welcome to safa shopping site!', // plain text body
@@ -41,8 +41,8 @@ server.post('/', (req, res) => {
                     host: 'smtp.office365.com',
                     port:587,
                     auth: {
-                        user: 'Sophie-professionell@outlook.de', // generated ethereal user
-                        pass: 'Javascript_31_10'  // generated ethereal password
+                        user: 'write your email', // generated ethereal user
+                        pass: 'write your password'  // generated ethereal password
                     }
                 })
                 //window.location.href = 'index.html';
